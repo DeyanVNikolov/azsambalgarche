@@ -1,0 +1,52 @@
+html, body {
+    min-height: 100vh;
+    padding-top: 29px
+  }
+  
+  .page-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* set the height of your footer */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+    border: 3px solid #f2f2f2;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0062cc;
+  }
+  
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+
+    @media screen and (max-width: 752px) {
+
+      .login-photo {
+        width: 200px !important;
+      }
+      
+    }
+
+    @media screen and (max-width: 574px) {
+
+      .login-photo {
+        width: 300px !important;
+      }
+      
+    }
